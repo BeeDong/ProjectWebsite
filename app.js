@@ -21,7 +21,7 @@ document.addEventListener("DOMContentLoaded", () => {
       themeToggleButton.textContent = "☀️ Light Mode";
       themeToggleButton.classList.replace(
         "btn-outline-light",
-        "btn-outline-dark",
+        "btn-outline-light",
       );
     } else {
       themeToggleButton.textContent = "🌙 Dark Mode";
@@ -62,3 +62,21 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   });
 });
+/**
+ * Interactivity Feature 3: Custom Cursor
+ * Satisfies the "Beyond Class Scope" design execution patterns.
+ */
+let innerCursor = document.querySelector(".inner-cursor");
+let outerCursor = document.querySelector(".outer-cursor");
+
+document.addEventListener("mousemove", moveCursor);
+
+function moveCursor(e) {
+  let x = e.clientX;
+  let y = e.clientY;
+
+  innerCursor.style.left = `${x}px`;
+  innerCursor.style.top = `${y}px`;
+  outerCursor.style.left = `${x}px`;
+  outerCursor.style.top = `${y}px`;
+}
