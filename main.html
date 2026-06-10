@@ -15,8 +15,10 @@
     />
   </head>
   <body>
+    <!--Custom Cursor for website-->
     <div class="inner-cursor"></div>
     <div class="outer-cursor"></div>
+    <!--Navigation Bar start-->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
       <div class="container">
         <a class="navbar-brand" href="#">Brandon Duong's Portfolio</a>
@@ -26,6 +28,7 @@
           data-bs-toggle="collapse"
           data-bs-target="#navbarNav"
         >
+          <!--Navigation toggle icon for mobile-->
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
@@ -63,7 +66,7 @@
         <div class="row align-items-center">
           <div class="col-md-4 text-center mb-4 mb-md-0">
             <img
-              src="https://discord.com/channels/1512603300409905233/1512603301034590391/1513604768428327032"
+              src="https://cdn.discordapp.com/attachments/1512603301034590391/1513604768151507105/IMG_0332.jpg?ex=6a2855ca&is=6a27044a&hm=bddc7ec93481b808740c92f3ec068ec773d04f5c1edd1878f0bdb549e5477192&"
               alt="Professional Profile Photo"
               class="rounded-circle img-fluid border border-3"
             />
@@ -104,9 +107,14 @@
               </p>
             </div>
             <div class="border-start border-3 border-secondary ps-3 my-3">
-              <h5>Foot Traffic Anaylzer (ECE411-413)</h5>
+              <h5>Microprocessor Coding (ECE371-372)</h5>
               <p class="text-muted mb-1">Portland State University</p>
-              <p>Designed, and researched a server code for</p>
+              <p>
+                Using assembly programming, affect the data manipulation of a
+                given microprocessor. Targeting the use of a button and toggling
+                LEDs using low level coding checking the features of a board
+                using primitive code architecture.
+              </p>
             </div>
           </div>
           <div class="col-md-6">
@@ -120,7 +128,7 @@
               <span class="badge bg-dark fs-6">C/C++</span>
               <span class="badge bg-dark fs-6">Python</span>
               <span class="badge bg-dark fs-6">Matlab</span>
-              <span class="badge bg-dark fs-6">Git & GitHub</span>
+              <span class="badge bg-dark fs-6">Soldering</span>
             </div>
           </div>
         </div>
@@ -133,8 +141,7 @@
       <div class="container">
         <h2 class="fw-bold mb-3">Featured Projects</h2>
         <p class="text-muted mb-4">
-          Click a project below to read the technical specs and access its
-          repository details.
+          Click a project below to read their description.
         </p>
 
         <div class="accordion" id="projectAccordion">
@@ -148,7 +155,7 @@
                 aria-expanded="true"
                 aria-controls="collapseOne"
               >
-                Project One: E-Commerce API Router
+                Project: Foot Traffic Analyzer
               </button>
             </h2>
             <div
@@ -159,60 +166,13 @@
             >
               <div class="accordion-body">
                 <p>
-                  A back-end query processor built to handle concurrent item
-                  fetches and clean data delivery schemas across complex
-                  microservices.
+                  A system designed to monitor the foot traffic within a given
+                  area, designated by a set of small microprocessors. Using a
+                  Mesh network the devices triangulate the position of a target
+                  using their personal device i.e a Smartphone, and document
+                  that location in the server and send the processed data to a
+                  GUI that displays the data in a customizable heat map.
                 </p>
-                <div class="mt-3">
-                  <a
-                    href="https://github.com"
-                    target="_blank"
-                    class="btn btn-sm btn-dark me-2"
-                    >GitHub Repo</a
-                  >
-                  <a href="#" class="btn btn-sm btn-outline-secondary disabled"
-                    >Live Demo</a
-                  >
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="accordion-item">
-            <h2 class="accordion-header" id="headingTwo">
-              <button
-                class="accordion-button collapsed"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#collapseTwo"
-                aria-expanded="false"
-                aria-controls="collapseTwo"
-              >
-                Project Two: Task Automation CLI
-              </button>
-            </h2>
-            <div
-              id="collapseTwo"
-              class="accordion-collapse collapse"
-              aria-labelledby="headingTwo"
-              data-bs-parent="#projectAccordion"
-            >
-              <div class="accordion-body">
-                <p>
-                  An automated scripting ecosystem designed to safely optimize
-                  background image assets, minify stylesheets, and log
-                  diagnostic failures.
-                </p>
-                <div class="mt-3">
-                  <a
-                    href="https://github.com"
-                    target="_blank"
-                    class="btn btn-sm btn-dark me-2"
-                    >GitHub Repo</a
-                  >
-                  <a href="#" class="btn btn-sm btn-outline-primary"
-                    >View Deployed</a
-                  >
-                </div>
               </div>
             </div>
           </div>
