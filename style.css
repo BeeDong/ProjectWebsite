@@ -37,7 +37,7 @@ body {
   background: white;
   mix-blend-mode: difference;
   border-radius: 50%;
-  pointer-events: 0.1ms;
+  pointer-events: none;
   transition: 0.1ms;
 }
 
